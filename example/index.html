@@ -1,13 +1,25 @@
 <script>
 
+//1
+//2 Calculate length of tweet
+//3 140 >= tweet length
 
-var firstName = prompt("Please enter your first name");
+var tweet = prompt("Write your tweet here.");
 
-var lastName = prompt("Please enter your last name");
+console.log( "True = Character count less than or equal to 140.")
 
-var favoriteBand = prompt ("Please enter your favorite band");
+console.log( "False = Character count is greater than 140.")
 
-console.log("Hello," + firstName + " " + lastName);
+console.log( tweet.length <= 140);
+
+console.log( "Character count =")
+
+console.log( tweet.length);
+
+console.log ("Characters remaining =")
+
+console.log ( 140 - tweet.length )
+
 
 
 
