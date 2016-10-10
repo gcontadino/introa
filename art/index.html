@@ -1,0 +1,71 @@
+<html>
+    <head></head>
+    <body>
+      <canvas id="myCanvas" width="800" height="800"></canvas>
+    <script>
+    var canvas=document.getElementById("myCanvas");
+    var ctx = canvas.getContext('2d');
+
+  //Beige square background
+    ctx.beginPath();
+    ctx.fillStyle = ("#F4EFE9");
+    ctx.fillRect(1,1,282,282);
+    ctx.stroke();
+      
+  //Thin black outline
+    ctx.beginPath();
+    ctx.strokeStyle = "#6F6055"
+    ctx.strokeRect(4,5,274,274);
+    ctx.lineWidth = "2";
+    ctx.closePath();
+      
+  //Black rectangle
+    ctx.beginPath();
+    ctx.fillStyle = ("#161513")
+    ctx.fillRect(3,201,273,75);
+    ctx.stroke();
+    
+  //Grey Rectangle
+    ctx.beginPath();
+    ctx.fillStyle = ("#CCC2C0")
+    ctx.fillRect(36,129,240,92);
+    ctx.stroke();
+    
+  //Dark grey rectangle
+    ctx.beginPath();
+    ctx.fillStyle = ("#857979")
+    ctx.fillRect(58,6,107,24);
+    ctx.stroke();
+    
+  //Red rectangle
+    ctx.beginPath();
+    ctx.fillStyle = ("#F1042B");
+    ctx.fillRect(188,129,13,45);
+    ctx.stroke();
+    
+  //White box
+    ctx.beginPath();
+    ctx.fillStyle = ("#F4EFE9");
+    ctx.fillRect(56,128,108,105);
+    ctx.stroke();
+    
+  //Grey circle
+  ctx.beginPath();
+  ctx.arc(110,180,44,44,2*Math.PI);
+  ctx.fillStyle = ("#CCC2C0");
+  ctx.fill();
+  ctx.closePath();
+  
+    //Black Box
+    ctx.beginPath();
+    ctx.fillStyle = ("#161513");
+    ctx.fillRect(56,90,108,40);
+    ctx.closePath();
+    
+    
+    
+
+  </script>
+  </body>
+  </html>
+  
